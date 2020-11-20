@@ -1,0 +1,60 @@
+{
+  "name": "@uiw/react-search-select",
+  "version": "4.6.18",
+  "description": "SearchSelect component",
+  "author": "Kenny Wong <wowohoo@qq.com>",
+  "homepage": "https://uiwjs.github.io/#/components/search-select",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiwjs/uiw.git"
+  },
+  "license": "MIT",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "search-select",
+    "react-search-select",
+    "design",
+    "uiw",
+    "uiw-react",
+    "react.js",
+    "react",
+    "react-component",
+    "component",
+    "components",
+    "ui",
+    "css",
+    "uikit",
+    "react-ui",
+    "framework",
+    "front-end",
+    "frontend"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@uiw/react-dropdown": "^4.6.18",
+    "@uiw/react-icon": "^4.6.18",
+    "@uiw/react-input": "^4.6.18",
+    "@uiw/react-loader": "^4.6.18",
+    "@uiw/react-menu": "^4.6.18",
+    "@uiw/utils": "^4.6.18"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.12.5",
+    "@types/jest": "25.2.1",
+    "@types/react": "16.9.41",
+    "@types/react-dom": "16.9.8",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  }
+}

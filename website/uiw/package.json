@@ -1,0 +1,71 @@
+{
+  "name": "@example/uiw",
+  "version": "4.6.18",
+  "description": "A high quality UI Toolkit, A Component Library for React 16+.",
+  "private": true,
+  "sideEffects": true,
+  "homepage": "https://uiwjs.github.io",
+  "authors": [
+    "Kenny Wang <wowohoo@qq.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiwjs/uiw.git"
+  },
+  "scripts": {
+    "start": "kkt start",
+    "build": "GENERATE_SOURCEMAP=false kkt build"
+  },
+  "keywords": [
+    "uiw",
+    "uiwjs",
+    "uiw-react",
+    "react.js",
+    "react",
+    "component",
+    "components",
+    "ui",
+    "framework"
+  ],
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "react-dom": ">=16.0.0"
+  },
+  "dependencies": {
+    "@rematch/core": "1.4.0",
+    "@uiw/react-code-preview": "1.11.6",
+    "@uiw/react-markdown-preview": "1.0.9",
+    "@uiw/reset.css": "1.0.4",
+    "classnames": "2.2.6",
+    "history": "4.10.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-dynamic-loadable": "2.0.1",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.2.0",
+    "uiw": "^4.6.18"
+  },
+  "devDependencies": {
+    "@kkt/loader-less": "5.10.3",
+    "@kkt/loader-raw": "5.10.3",
+    "kkt": "5.10.3",
+    "react-test-renderer": "16.14.0"
+  },
+  "author": "kenny wang <wowohoo@qq.com>",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

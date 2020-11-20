@@ -1,0 +1,54 @@
+{
+  "name": "@uiw/react-list",
+  "version": "4.6.18",
+  "description": "List component",
+  "author": "Kenny Wong <wowohoo@qq.com>",
+  "homepage": "https://uiwjs.github.io/#/components/list",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uiwjs/uiw.git"
+  },
+  "license": "MIT",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "list",
+    "react-list",
+    "design",
+    "uiw",
+    "uiw-react",
+    "react.js",
+    "react",
+    "react-component",
+    "component",
+    "components",
+    "ui",
+    "css",
+    "uikit",
+    "react-ui",
+    "framework",
+    "front-end",
+    "frontend"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@uiw/utils": "^4.6.18"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.12.5",
+    "@types/react": "16.9.41",
+    "@types/react-dom": "16.9.8",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  }
+}
